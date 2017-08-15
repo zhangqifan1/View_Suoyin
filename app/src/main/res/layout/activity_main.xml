@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <ListView
+        android:id="@+id/lv"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+    <com.example.administrator.view_suoyin.MyQuickIndex
+        android:layout_width="30dp"
+        android:id="@+id/quickIndex"
+        android:layout_height="match_parent"
+        android:background="#006aff"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>
